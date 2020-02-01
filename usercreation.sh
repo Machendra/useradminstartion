@@ -1,5 +1,5 @@
 #!/bin/bash
-for user in suresh ramesh rajesh 
+for user in suresh ramesh rajesh somesh
 do
 useradd $user
 mkdir /home/$user/.ssh
